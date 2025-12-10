@@ -1,0 +1,10 @@
+services:
+  java:
+    build:
+      context: .  # どこのフォルダを見るか
+      dockerfile: Dockerfile  # どこのdockerfileを見るか
+    container_name: java  # コンテナの名前
+    volumes:  # ホストのフォルダをコンテナと共有するための設定
+      - ./src:/app
+    stdin_open: true  # ユーザーがコンテナに入った時に標準入力が可能に
+    tty: true # コンテナ内でターミナルを有効化
