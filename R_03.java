@@ -1,4 +1,4 @@
-public class Third{
+public class R_03{
   public static void main(String[] args){
     // 練習3-1
     // 1
