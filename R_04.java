@@ -1,4 +1,4 @@
-public class Fourth{
+public class R_04{
   public static void main(String[] args){
 
     // P157

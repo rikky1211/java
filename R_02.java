@@ -1,4 +1,4 @@
-public class Second {
+public class R_02 {
     public static void main(String[] args) {
         String msg = "ようこそ占いの館へ";
         System.out.println(msg);
